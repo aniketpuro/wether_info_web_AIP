@@ -1,0 +1,68 @@
+/* Reset some default styling */
+body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    height: 100%;
+    display: grid;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#tag {
+    align-self: center;
+    justify-content: center;
+}
+
+#main {
+    
+    display: flex;
+}
+
+#main1 {
+    
+    display: grid;
+}
+
+/* Styling for the input and button */
+#city-id {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styling for the information section */
+#city-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#city-time {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#city-temp {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff5733;
+}
